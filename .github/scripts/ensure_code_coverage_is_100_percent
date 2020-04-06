@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+require 'json'
+
+parsed_coverage = JSON.parse(File.read('coverage/.last_run.json'))
+raise "not 100%" unless parsed_coverage.dig('result', 'covered_percent') == 100
+puts "coverage is 💯% 😄"

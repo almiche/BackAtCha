@@ -1,8 +1,4 @@
 # frozen_string_literal: true
-require "rubygems"
-require "test/unit"
-
-task(default: %w[test])
 
 task :test do
   ruby 'test/back_at_cha_test.rb'
@@ -14,5 +10,4 @@ task :coverage do
   SimpleCov.start
 
   require_relative 'test/back_at_cha_test.rb'
-  ruby 'test/back_at_cha_test.rb'
 end
