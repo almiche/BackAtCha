@@ -1,0 +1,45 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ast (2.4.0)
+    coderay (1.1.2)
+    faraday (1.0.1)
+      multipart-post (>= 1.2, < 3)
+    jaro_winkler (1.5.4)
+    json (2.3.0)
+    method_source (1.0.0)
+    mocha (1.11.2)
+    multipart-post (2.1.1)
+    parallel (1.19.1)
+    parser (2.7.1.0)
+      ast (~> 2.4.0)
+    pry (0.13.0)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
+    rack (2.2.2)
+    rainbow (3.0.0)
+    rexml (3.2.4)
+    rubocop (0.81.0)
+      jaro_winkler (~> 1.5.1)
+      parallel (~> 1.10)
+      parser (>= 2.7.0.1)
+      rainbow (>= 2.2.2, < 4.0)
+      rexml
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (>= 1.4.0, < 2.0)
+    ruby-progressbar (1.10.1)
+    unicode-display_width (1.7.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  faraday
+  json
+  mocha
+  pry
+  rack
+  rubocop
+
+BUNDLED WITH
+   1.17.2

@@ -1,0 +1,11 @@
+AllCops:
+  EnabledByDefault: true
+Documentation:
+  Enabled: false
+Style/DocumentationMethod:
+  Enabled: false
+Metrics/MethodLength:
+  Enabled: false
+Style/Copyright:
+  Enabled: false
+  AutocorrectNotice: ""
