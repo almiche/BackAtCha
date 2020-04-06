@@ -2,6 +2,7 @@
 Oh hey! Didn't see you there! Did I tell you about the time my friend [@jusleg](https://github.com/jusleg) accidentally ordered me some "Ben and Jerry's Cookies Dough Ice Cream" © and how I then promplty reciprocated with 3 "SpongeBob Squarepants" © popsickles... Oh what's that you don't care? You're just here to find out what this repo is about? Well that's kinda rude but ok...
 
 <img src="https://user-images.githubusercontent.com/14715156/78526515-3ecc2a00-77a8-11ea-9517-9d8ffeca7251.png" data-canonical-src="https://user-images.githubusercontent.com/14715156/78526515-3ecc2a00-77a8-11ea-9517-9d8ffeca7251.png" height="300" />
+
 ## What is this ?
 
 Ok picture this the other day I was taking my daily scheduled self isolation walk, if you're looking at this repo in the year 2133 and wondering what the hell is a social isolation walk here's a diagram to show you what the looks like in a bit more detail:
