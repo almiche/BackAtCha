@@ -1,5 +1,7 @@
 AllCops:
   EnabledByDefault: true
+  Exclude:
+    - "lib/version.rb"
 Documentation:
   Enabled: false
 Style/DocumentationMethod:
@@ -9,3 +11,5 @@ Metrics/MethodLength:
 Style/Copyright:
   Enabled: false
   AutocorrectNotice: ""
+Bundler/GemComment:
+  Enabled: false
