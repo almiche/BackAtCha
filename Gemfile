@@ -14,4 +14,6 @@ group :test do
   gem 'pry'
   gem 'rack'
   gem 'simplecov'
+  gem "test-unit", "1.2.3"
+  gem "sinatra"
 end

@@ -1,4 +1,6 @@
 # frozen_string_literal: true
+require "rubygems"
+require "test/unit"
 
 task(default: %w[test])
 
