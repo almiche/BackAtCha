@@ -7,6 +7,7 @@ source "https://rubygems.org"
 gem 'json'
 gem 'faraday'
 gem 'rubocop', require: false
+gem 'rake'
 
 group :test do
   gem 'mocha'

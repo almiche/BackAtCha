@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require('../lib/back_at_cha')
+require_relative('../lib/back_at_cha')
 require('test/unit')
 require('mocha/test_unit')
 require('rack')
@@ -19,14 +19,14 @@ class BackAtChaTest < Test::Unit::TestCase
   end
 
   def test_a_request_with_device_memory_will_have_a_package_return_same_size
-    headers = {
-      "Device-Memory": '0.25'
-    }
-    @back_at_cha.expects(:gettem).once.with(
-      size_in_gb: 0.25,
-      body: ['Put this in your pipe & smoke it!'],
-      content_type: nil
-    )
+    headers = {}
+    headers['Device-Memory'] = '0.25'
+    @back_at_cha.expects(:gettem).once
+                .with(
+                  size_in_gb: 0.25,
+                  body: ['Put this in your pipe & smoke it!'],
+                  content_type: nil
+                )
     @mock_request.get('/', headers)
   end
 
