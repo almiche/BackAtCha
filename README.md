@@ -1,4 +1,4 @@
-# BackAtCha ![BackAt](https://img.shields.io/badge/BackAt%3F-Cha-brightgreen) ![Tests](https://github.com/almiche/BackAtCha/workflows/Tests/badge.svg?branch=master) ![Code Cov == 100%](https://github.com/almiche/BackAtCha/workflows/Code%20Cov%20==%20100%25/badge.svg?branch=master) ![Lint](https://github.com/almiche/BackAtCha/workflows/Lint/badge.svg?branch=master) [![license](https://img.shields.io/badge/LICENSE-MIT-blue)](https://github.com/almiche/BackAtCha/blob/master/LICENSE) ![bullshit?](https://img.shields.io/badge/bullshit%3F-none-red)
+# BackAtCha ![BackAt](https://img.shields.io/badge/BackAt%3F-Cha-brightgreen) [![Gem Version](https://badge.fury.io/rb/BackAtCha.svg)](https://badge.fury.io/rb/BackAtCha) ![downloads](https://img.shields.io/gem/dt/BackAtCha) ![Tests](https://github.com/almiche/BackAtCha/workflows/Tests/badge.svg?branch=master) ![Code Cov == 100%](https://github.com/almiche/BackAtCha/workflows/Code%20Cov%20==%20100%25/badge.svg?branch=master) ![Lint](https://github.com/almiche/BackAtCha/workflows/Lint/badge.svg?branch=master) [![license](https://img.shields.io/badge/LICENSE-MIT-blue)](https://github.com/almiche/BackAtCha/blob/master/LICENSE) ![bullshit?](https://img.shields.io/badge/bullshit%3F-none-red)
 Oh hey! Didn't see you there! Did I tell you about the time my friend [@jusleg](https://github.com/jusleg) accidentally ordered me some "Ben and Jerry's Cookies Dough Ice Cream" © and how I then promplty reciprocated with 3 "SpongeBob Squarepants" © popsickles... Oh what's that you don't care? You're just here to find out what this repo is about? Well that's kinda rude but ok...
 
 ## What is this ?
@@ -53,3 +53,4 @@ As for me, I'm going to playing around with my new guitar and taking some more s
 
 ## The Pivot
 After discussing this further with [@jusleg](https://github.com/jusleg) we've come to the conclusion that a more pressing right now is creating a service which would allow blog writers to embed ModelViews into Medium articles. So look out for that next time you write a Medium article.
+
