@@ -2,18 +2,16 @@
 
 source('https://rubygems.org')
 
-# git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
-
 gem('faraday')
 gem('json')
 gem('rake')
 gem('rubocop', require: false)
 
-group :test do
-  gem 'mocha'
-  gem 'pry'
-  gem 'rack'
-  gem 'simplecov'
-  gem "test-unit", "1.2.3"
-  gem "sinatra"
+group(:test) do
+  gem('mocha')
+  gem('pry')
+  gem('rack')
+  gem('simplecov')
+  gem("test-unit", "1.2.3")
+  gem("sinatra")
 end
