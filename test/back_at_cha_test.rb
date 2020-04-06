@@ -1,10 +1,10 @@
 # frozen_string_literal: true
-
 require_relative('../lib/back_at_cha')
 require('test/unit')
 require('mocha/test_unit')
 require('rack')
 require('sinatra/base')
+require 'simplecov'
 
 class BackAtChaTest < Test::Unit::TestCase
   def mocha_setup

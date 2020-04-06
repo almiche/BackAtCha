@@ -13,4 +13,5 @@ group :test do
   gem 'mocha'
   gem 'pry'
   gem 'rack'
+  gem 'simplecov'
 end

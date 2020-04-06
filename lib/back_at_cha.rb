@@ -1,4 +1,5 @@
 require 'pry'
+
 class BackAtCha
     def initialize(app)
         @app  = app
