@@ -1,10 +1,12 @@
-name: Ruby
+name: Code Cov == 100%
 
 on:
   push:
-    branches: [ master ]
+    branches: 
+      - master
   pull_request:
-    branches: [ master ]
+    paths:
+      - '**.rb'
 
 jobs:
   build:
@@ -14,11 +16,20 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Set up Ruby 2.6
-      uses: ruby/setup-ruby@v1
+      uses: actions/setup-ruby@v1
       with:
-        ruby-version: truffleruby
-    - name: Build and test with Rake
+        ruby-version: 2.6.x
+    - uses: actions/cache@v1
+      with:
+        path: vendor/bundle
+        key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-gems-
+    - name: Run test coverage
       run: |
         gem install bundler
+        bundle config path vendor/bundle
         bundle install --jobs 4 --retry 3
-        rake coverage
+        bundle exec rake coverage
+        ./.github/workflows/scripts/ensure_code_coverage_is_100_percent
+
