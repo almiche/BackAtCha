@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Sorbet incoming
 
+## [0.0.6] - 2020-04-06
+
+### Changed
+
+- Fix the gem homepage link in the gemspec
+
 ## [0.0.5] - 2020-04-06
 
 ### Added

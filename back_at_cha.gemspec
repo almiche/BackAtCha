@@ -2,12 +2,12 @@
 
 Gem::Specification.new do |s|
   s.name = 'BackAtCha'
-  s.version = '0.0.5'
+  s.version = '0.0.6'
   s.summary = 'The uno-reverse card for DDOS attacks'
   s.description = 'Rack Middleware to hit those attackers back '
   s.authors     = ['Michel Chatmajian']
   s.email       = 'chamich196@hotmail.com'
-  s.homepage    = 'http://rubygems.org/gems/backatcha'
+  s.homepage    = 'http://rubygems.org/gems/BackAtCha'
   s.license = 'MIT'
   s.metadata = {
     "source_code_uri" => "https://github.com/almiche/BackAtCha",
