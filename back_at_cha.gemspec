@@ -2,24 +2,24 @@
 
 Gem::Specification.new do |s|
   s.name = 'BackAtCha'
-  s.version = '0.0.1'
+  s.version = '0.0.5'
   s.summary = 'The uno-reverse card for DDOS attacks'
   s.description = 'Rack Middleware to hit those attackers back '
   s.authors     = ['Michel Chatmajian']
   s.email       = 'chamich196@hotmail.com'
   s.homepage    =
-    'http://rubygems.org/gems/quotifier'
+    'http://rubygems.org/gems/backatcha'
   s.license = 'MIT'
   s.metadata = {
-    source_code_uri: 'https://github.com/almiche/quotifier_as_middleware',
-    changelog_uri: 'https://github.com/almiche/quotifier_as_middleware/blob/master/CHANGELOG.md'
+    "source_code_uri" => "https://github.com/almiche/BackAtCha",
+    "changelog_uri" => "https://github.com/almiche/BackAtCha/blob/master/CHANGELOG.md"
   }
-  s.files = [
-    'Gemfile',
-    'VERSION',
-    'lib/back_at_cha.rb'
-  ]
-  # s.require_paths = ["lib"]
-  s.add_dependency('faraday')
-  s.add_dependency('json')
+  s.files = Dir["{lib}/**/*", "Rakefile", "README.md", "CHANGELOG.md"]
+
+  s.add_development_dependency 'mocha'
+  s.add_development_dependency 'rake'
+  s.add_development_dependency 'rubocop'
+  s.add_development_dependency 'simplecov'
+  s.add_development_dependency 'test-unit'
+  s.add_development_dependency 'sinatra'
 end
