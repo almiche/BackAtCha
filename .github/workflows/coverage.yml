@@ -31,5 +31,5 @@ jobs:
         bundle config path vendor/bundle
         bundle install --jobs 4 --retry 3
         bundle exec rake coverage
-        ./.github/workflows/scripts/ensure_code_coverage_is_100_percent
+        ./.github/scripts/ensure_code_coverage_is_100_percent
 
