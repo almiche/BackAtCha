@@ -6,7 +6,7 @@ Oh hey! Didn't see you there! Did I tell you about the time my friend [@jusleg](
 ## What is this ?
 
 Ok picture this the other day I was taking my daily scheduled self isolation walk, if you're looking at this repo in the year 2133 and wondering what the hell is a social isolation walk here's a diagram to show you what the looks like in a bit more detail:
-![social distancing](https://user-images.githubusercontent.com/14715156/78517320-c9059580-778a-11ea-9184-8854bc7bb4ff.png)
+![social distancing](https://user-images.githubusercontent.com/4406751/79282765-056c7c00-7e84-11ea-9697-80b6d60e3c84.png)
 Technically speaking this involves the following:
 - You maintain at least 6 ft of distance from any living being
 - You muffle any semblance of a cough because otherwise people will look at you like you're a zombie
